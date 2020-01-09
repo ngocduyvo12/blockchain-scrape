@@ -5,8 +5,8 @@ var axios = require("axios");
 
 // First, tell the console what server.js is doing
 console.log("\n***********************************\n" +
-            "Grabbing every thread name and hash\n" +
-            "from reddit's webdev board:" +
+            "Grabbing the latest height and hash ID entry\n" +
+            "from blockchain.com/explorer:" +
             "\n***********************************\n");
 
 // Making a request via axios for the blockchain webpage. The page's HTML is passed as the callback's third argument
