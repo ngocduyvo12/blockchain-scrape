@@ -1,9 +1,9 @@
-// Parses our HTML and helps us find elements
+// Parses HTML and helps find elements
 var cheerio = require("cheerio");
 // Makes HTTP request for HTML page
 var axios = require("axios");
 
-// First, tell the console what server.js is doing
+// First, console log to console what server.js is doing
 console.log("\n***********************************\n" +
             "Grabbing the latest height and hash ID entry\n" +
             "from blockchain.com/explorer:" +
