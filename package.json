@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-http-header-size=81000 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocduyvo12/blockchain-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocduyvo12/blockchain-scrape/issues"
+  },
+  "homepage": "https://github.com/ngocduyvo12/blockchain-scrape#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cheerio": "^1.0.0-rc.3",
+    "http-parser-js": "^0.5.2"
+  }
+}
